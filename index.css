@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body {
+    background-color: #e6ecca;
+  }
+
+h1,h2,h3 {
+  color: rgb(44, 80, 40);
+}
+h1, h2, h3, img {
+  text-align: center;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(Aloevera-OVoWO.ttf);
+}
+body {
+  font-family: myFirstFont;
+  color: darkgreen;
+}
