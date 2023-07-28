@@ -1,12 +1,12 @@
 @charset "UTF-8";
 body {
-    background-color: #e6ecca;
+    background-color: #fcf6db;
   }
 
 h1,h2,h3 {
   color: rgb(44, 80, 40);
 }
-h1, h2, h3, img {
+h1, h2, h3 {
   text-align: center;
 }
 @font-face {
@@ -16,4 +16,25 @@ h1, h2, h3, img {
 body {
   font-family: myFirstFont;
   color: darkgreen;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.class {
+  text-align: center;
+}
+button {
+  background-color:#6ec578b5;
+}
+button {
+  border-radius: 20px;
+}
+.button {
+  text-align: center;
 }
